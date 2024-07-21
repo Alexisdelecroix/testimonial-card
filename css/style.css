@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(#f9fafb, #D2D6DB);
+}
+
+.card {
+  width: 380px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #52525236;
+}
+
+.profil {
+  display: flex;
+}
+
+.profil img {
+  width: 70px;
+  object-fit: cover;
+}
+
+.profil .container-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+.profil .name {
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #171717;
+}
+
+.profil .name-tag {
+  color: #525252;
+}
+
+.text p {
+  margin-top: 15px;
+  color: #525252;
+  font-size: 1.25rem;
+}
